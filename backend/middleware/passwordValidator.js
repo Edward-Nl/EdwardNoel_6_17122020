@@ -1,3 +1,4 @@
+//Middleware qui controle la saisi d'un Mdp sécurisé
 const schema = require('../models/passwordVerif');
 
 module.exports = (req, res, next) => {

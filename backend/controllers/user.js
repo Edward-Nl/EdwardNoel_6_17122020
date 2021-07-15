@@ -1,3 +1,4 @@
+// Récuperation du Model User, utilisation de bcrypt et de JsonwebToken, et création des middleware pour la route User
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 

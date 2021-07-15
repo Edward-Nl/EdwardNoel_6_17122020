@@ -1,3 +1,4 @@
+// Model pour les sauces, utilisation de validationSauces pour controler la saisi, et de mongoose-sanitizer.
 const mongoose = require('mongoose');
 const mongooseSanitizerPlugin = require('mongoose-sanitizer-plugin');
 const validate = require('../middleware/validationSauces');

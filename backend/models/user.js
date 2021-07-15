@@ -1,3 +1,4 @@
+//Model User, utilisation de type mail pour controler la saisi du mail, de unique-validator pour le mail unique, et de sanitizer.
 const mongoose = require('mongoose');
 require('mongoose-type-email');
 

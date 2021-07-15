@@ -1,3 +1,4 @@
+// Creation du Middleware Multer, pour la gestion et sauvegarde d'images
 const multer = require('multer');
 
 const MIME_TYPES = {

@@ -1,3 +1,4 @@
+// Creation du Middleware d'authentification avec l'utilisation du Jsonwebtoken
 const jwt = require('jsonwebtoken');
 
 module.exports = (req, res, next) => {

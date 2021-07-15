@@ -1,3 +1,5 @@
+// Récuperation du Model Sauces, utilisation de fs pour les images(télechargement et modif),
+// et création des middleware pour la route Sauces
 const Sauce = require('../models/sauces');
 const fs =  require('fs');
 

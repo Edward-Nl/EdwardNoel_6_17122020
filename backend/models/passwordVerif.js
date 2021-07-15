@@ -1,3 +1,4 @@
+// Utilisation de Password Validator pour exiger un Mdp solide 
 const passwordValidator = require('password-validator');
 
 let schema = new passwordValidator();

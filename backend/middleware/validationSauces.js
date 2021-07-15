@@ -1,3 +1,4 @@
+// Middleware qui permet le controle de la saisi dans le formulaire des sauces
 const validate = require('mongoose-validator');
 
 exports.validName = [
