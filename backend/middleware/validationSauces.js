@@ -29,12 +29,12 @@ exports.validManufact = [
 exports.validDescription = [
     validate({
         validator: 'isLength',
-        arguments: [3, 200],
-        message: 'La description de la sauce doit contenir entre 3 et 200 caractères',
+        arguments: [3, 400],
+        message: 'La description de la sauce doit contenir entre 3 et 400 caractères',
     }),
     validate({
         validator: 'matches',
-        arguments: /^[a-z\d\-_\s]+$/i,
+        arguments: /^[a-z\d\-_.,!\s]+$/i,
         message: 'La description de votre sauce ne peut contenir que des chiffres & des lettres'
     }),
 ];
